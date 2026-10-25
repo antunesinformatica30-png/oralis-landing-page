@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Conheça a Oralis, uma clínica odontológica com atendimento humanizado e soluções para cuidar da sua saúde bucal."
+    >
+    <meta name="theme-color" content="#0F3042">
+    <title>Oralis | Clínica Odontológica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==========================================
+         1. CABEÇALHO E NAVEGAÇÃO
+    =========================================== -->
+    <header class="header" id="inicio">
+        <div class="container header-container">
+            <a href="#inicio" class="logo" aria-label="Oralis - Página inicial">
+                <img
+                    src="logo.jpg"
+                    alt="Oralis — Clínica Odontológica"
+                    class="logo-image"
+                >
+            </a>
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="main-navigation"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav
+                class="navigation" id="main-navigation"
+                aria-label="Navegação principal"
+            >
+                <ul class="navigation-list">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#tratamentos">Tratamentos</a></li>
+                    <li><a href="#sobre">Sobre nós</a></li>
+                    <li><a href="#estrutura">Estrutura</a></li>
+                    <li><a href="#depoimentos">Experiências</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <a href="#contato" class="button button-primary">
+                Agendar avaliação
+            </a>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         2. CONTEÚDO PRINCIPAL
+    =========================================== -->
+    <main>
+
+        <!-- HERO: APRESENTAÇÃO PRINCIPAL -->
+        <section
+            class="hero"
+            aria-labelledby="hero-title"
+        >
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="section-label">
+                        Seu sorriso merece atenção
+                    </span>
+                    <h1 id="hero-title">
+                        Mais do que tratamentos,
+                        <span>novos começos.</span>
+                    </h1>
+                    <p class="hero-description">
+                        Na Oralis, unimos tecnologia, experiência
+                        e atendimento humanizado para cuidar do
+                        seu sorriso em todas as fases da vida.
+                    </p>
+                    <div class="hero-actions">
+                        <a
+                            href="#contato"
+                            class="button button-primary"
+                        >
+                            Solicitar minha avaliação
+                        </a>
+                        <a
+                            href="#tratamentos"
+                            class="button button-secondary"
+                        >
+                            Conhecer tratamentos
+                        </a>
+                    </div>
+                    <ul class="hero-benefits">
+                        <li>Atendimento humanizado</li>
+                        <li>Planejamento individualizado</li>
+                        <li>Ambiente acolhedor</li>
+                    </ul>
+                </div>
+              <div class="hero-image">
+                  <img
+                      src="hero.jpg"
+                      alt="Paciente sorrindo em uma clínica odontológica moderna"
+                      fetchpriority="high"
+                  >
+              </div>
+            </div>
+        </section>
+
+        <!-- ======================================
+             3. TRATAMENTOS ODONTOLÓGICOS
+        ======================================= -->
+        <section
+            class="treatments section"
+            id="tratamentos"
+            aria-labelledby="treatments-title"
+        >
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-label">
+                        Nossos serviços
+                    </span>
+                    <h2 id="treatments-title">
+                        Tratamentos para cada fase do seu sorriso.
+                    </h2>
+                    <p>
+                        Conheça nossas opções de atendimento
+                        odontológico e descubra os cuidados
+                        indicados para suas necessidades.
+                    </p>
+                </header>
+                <div class="treatments-grid">
+
+                    <!-- TRATAMENTO 1: IMPLANTES -->
+                    <article class="treatment-card">
+                        <img
+                            src="implante.jpg"
+                            alt="Demonstração de implante dentário e prótese"
+                            loading="lazy"
+                        >
+                        <div class="treatment-content">
+                            <h3>Implantes e próteses</h3>
+                            <p>
+                                Soluções para reabilitação dentária,
+                                definidas após avaliação profissional.
+                            </p>
+                            <a
+                                href="#contato"
+                                class="treatment-link"
+                            >
+                                Conhecer tratamento
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- TRATAMENTO 2: ORTODONTIA -->
+                    <article class="treatment-card">
+                        <img
+                            src="ortodontia.jpg"
+                            alt="Detalhe de aparelho ortodôntico"
+                            loading="lazy"
+                        >
+                        <div class="treatment-content">
+                            <h3>Ortodontia</h3>
+                            <p>
+                                Cuidados para alinhamento dentário
+                                e correção da mordida.
+                            </p>
+                            <a
+                                href="#contato"
+                                class="treatment-link"
+                            >
+                                Conhecer tratamento
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- TRATAMENTO 3: PREVENÇÃO -->
+                    <article class="treatment-card">
+                        <img
+                            src="atendimento.jpg"
+                            alt="Atendimento odontológico em consultório"
+                            loading="lazy"
+                        >
+                        <div class="treatment-content">
+                            <h3>Limpeza e prevenção</h3>
+                            <p>
+                                Acompanhamento profissional e cuidados
+                                voltados à saúde bucal.
+                            </p>
+                            <a
+                                href="#contato"
+                                class="treatment-link"
+                            >
+                                Conhecer tratamento
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- TRATAMENTO 4: ESTÉTICA -->
+                    <article class="treatment-card">
+                        <img
+                            src="paciente2.jpg"
+                            alt="Paciente sorrindo em ambiente odontológico"
+                            loading="lazy"
+                        >
+                        <div class="treatment-content">
+                            <h3>Odontologia estética</h3>
+                            <p>
+                                Alternativas estéticas planejadas
+                                de acordo com cada paciente.
+                            </p>
+                            <a
+                                href="#contato"
+                                class="treatment-link"
+                            >
+                                Conhecer tratamento
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================================
+             4. SOBRE A CLÍNICA E O PROFISSIONAL
+        ======================================= -->
+        <section
+            class="about section"
+            id="sobre"
+            aria-labelledby="about-title"
+        >
+            <div class="container about-container">
+                <div class="about-image">
+                    <img
+                        src="dentista.jpg"
+                        alt="Dentista em ambiente clínico profissional"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="about-content">
+                    <span class="section-label">
+                        Sobre a Oralis
+                    </span>
+                    <h2 id="about-title">
+                        Experiência, tecnologia e cuidado com você.
+                    </h2>
+                    <p>
+                        Acreditamos que cuidar do sorriso também
+                        significa cuidar do bem-estar.
+                    </p>
+                    <p>
+                        Nosso propósito é oferecer orientação clara,
+                        atendimento atencioso e planejamento
+                        individualizado para cada paciente.
+                    </p>
+                    <div class="professional-info">
+                        <h3>Nosso profissional</h3>
+                        <p>
+                            Nome do cirurgião-dentista
+                        </p>
+                        <p>
+                            CRO: inserir registro profissional
+                        </p>
+                    </div>
+                    <a
+                        href="#contato"
+                        class="button button-primary"
+                    >
+                        Solicitar avaliação
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================================
+             5. ESTRUTURA E AMBIENTE
+        ======================================= -->
+        <section
+            class="structure section"
+            id="estrutura"
+            aria-labelledby="structure-title"
+        >
+            <div class="container structure-container">
+                <div class="structure-content">
+                    <span class="section-label">
+                        Nosso espaço
+                    </span>
+                    <h2 id="structure-title">
+                        Um ambiente pensado para o seu bem-estar.
+                    </h2>
+                    <p>
+                        Conheça nosso espaço e os recursos disponíveis
+                        para proporcionar uma experiência de
+                        atendimento acolhedora e organizada.
+                    </p>
+                    <a
+                        href="#contato"
+                        class="button button-secondary"
+                    >
+                        Conhecer nossa clínica
+                    </a>
+                </div>
+                <div class="structure-gallery">
+                    <img
+                        src="consultorio.jpg"
+                        alt="Interior de um consultório odontológico moderno"
+                        loading="lazy"
+                    >
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================================
+             6. EXPERIÊNCIA DOS PACIENTES
+        ======================================= -->
+        <section
+            class="testimonials section"
+            id="depoimentos"
+            aria-labelledby="testimonials-title"
+        >
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-label">
+                        Experiências
+                    </span>
+                    <h2 id="testimonials-title">
+                        Cuidado que faz a diferença.
+                    </h2>
+                    <p>
+                        Cada pessoa tem uma história e necessidades
+                        próprias. Nosso compromisso é oferecer
+                        atenção e orientação durante o atendimento.
+                    </p>
+                </header>
+                <div class="testimonials-grid">
+
+                    <!-- Substituir por depoimento real autorizado -->
+                    <article class="testimonial-card">
+                        <blockquote>
+                            Espaço reservado para um depoimento
+                            verdadeiro de paciente, publicado
+                            mediante autorização.
+                        </blockquote>
+                    </article>
+                    <article class="testimonial-card">
+                        <blockquote>
+                            Espaço reservado para outro relato
+                            autêntico sobre a experiência
+                            de atendimento.
+                        </blockquote>
+                    </article>
+                    <article class="testimonial-card">
+                        <blockquote>
+                            Espaço reservado para uma avaliação
+                            real e autorizada de paciente.
+                        </blockquote>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+<!-- CONTATO E AGENDAMENTO -->
+<section
+    class="contact section"
+    id="contato"
+    aria-labelledby="contact-title"
+\>
+    <div class="container">
+        <div class="contact-panel">
+
+            <!-- COLUNA 1: CHAMADA PARA AGENDAMENTO -->
+            <div class="contact-cta">
+                <span class="section-label">
+                    Estamos aqui para ajudar
+                </span>
+                <h2 id="contact-title">
+                    Vamos conversar sobre seu sorriso?
+                </h2>
+                <p>
+                    Dê o primeiro passo para cuidar da sua saúde
+                    bucal. Nossa equipe está pronta para orientar você.
+                </p>
+                <a
+                    href="#contact-details"
+                    class="button button-primary"
+                >
+                    Solicitar minha avaliação
+                </a>
+            </div>
+
+            <!-- COLUNA 2: INFORMAÇÕES -->
+            <div
+                class="contact-details"
+                id="contact-details"
+            >
+                <span class="section-label">
+                    Fale conosco
+                </span>
+                <h3>Informações da clínica</h3>
+                <address>
+                    <div class="contact-item">
+                        <span class="contact-item-icon"
+                              aria-hidden="true">⌖</span>
+                        <div>
+                            <strong>Endereço</strong>
+                            <p>
+                                Av. das Palmeiras, 245<br>
+                                Centro — Cidade Feliz, SP
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-item-icon"
+                              aria-hidden="true">☎</span>
+                        <div>
+                            <strong>Telefone</strong>
+                            <p>(11) 3333-0000</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-item-icon"
+                              aria-hidden="true">◷</span>
+                        <div>
+                            <strong>Horário de atendimento</strong>
+                            <p>
+                                Segunda a sexta: 8h às 18h<br>
+                                Sábado: 8h às 12h
+                            </p>
+                        </div>
+                    </div>
+                </address>
+            </div>
+
+            <!-- COLUNA 3: MAPA -->
+            <div class="contact-map">
+                <div class="contact-map-header">
+                    <span class="map-status"></span>
+                    <span>Como chegar</span>
+                </div>
+                <img
+                    src="mapa.jpg"
+                    alt="Mapa ilustrativo da localização fictícia da Oralis"
+                    loading="lazy"
+                >
+                <p class="contact-map-caption">
+                    Oralis — mapa fictício para demonstração
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <!-- ==========================================
+         8. RODAPÉ
+    =========================================== -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <a href="#inicio" class="logo" aria-label="Oralis - Voltar ao início">
+                <img
+                    src="logo.jpg"
+                    alt="Oralis — Clínica Odontológica"
+                    class="logo-image"
+                    loading="lazy"
+                >
+            </a>
+            <nav aria-label="Navegação do rodapé">
+                <ul class="footer-links">
+                    <li>
+                        <a href="#tratamentos">Tratamentos</a>
+                    </li>
+                    <li>
+                        <a href="#sobre">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a href="#estrutura">Estrutura</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+            <p class="footer-disclaimer">
+                Projeto de portfólio fictício. Endereço, telefone e mapa são ilustrativos.
+            </p>
+            <p class="copyright">
+                &copy; 2026 Oralis.
+                Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
