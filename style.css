@@ -1309,3 +1309,23 @@ html {
     }
 }
 }
+
+/* Centralizar o logotipo do rodapé no mobile */
+
+@media (max-width: 768px) {
+    .footer .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-inline: auto;
+    }
+
+    .footer .logo-image {
+        object-position: center;
+    }
+
+    .footer-container {
+        align-items: center;
+        text-align: center;
+    }
+}
